@@ -2,7 +2,7 @@ const Joi = require('joi');
 // joi library is used for validations
 
 // YYYY-MM-DD
-const datePattern = /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|1[1-9]|2[1-9]|3[0-1])$/;
+const datePattern = /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|1[0-9]|2[0-9]|3[0-1])$/;
 const dateErrorMessage = {
   'string.pattern.base': `Date format should be YYYY-MM-DD`,
 };
