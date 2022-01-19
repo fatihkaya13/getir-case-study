@@ -29,6 +29,8 @@ The following route handles post requests.
 In addition, the application is containerized with docker and being deployed to AWS ECS. 
 The url is below, it handles POST request.
 
+Note: Instance is removed from EC2 on 19.01.2022 due to AWS costs
+
 - http://api-ecsalb-c48q2s6quzm5-769499631.us-east-2.elb.amazonaws.com/records
 
 This was an optional learning journey for me while working on the following tutorial.
